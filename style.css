@@ -13,8 +13,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 5px 5%;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +53,7 @@ body {
     padding: 70px 10% 0;
 }
 .home-content {
-    max-width: 600px;
+    max-width: 500px;
 }
 .home-content h3 {
     font-size: 32px;
@@ -66,6 +66,52 @@ body {
 }
 .home-content p {
     font-size: 20px;
-
 }
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+    background: #0ef;
+    color: blanchedalmond;
+    box-shadow: 0 0 20px #0ef;
+} 
+/* ABOUT SECTION  */
 
+.about {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(/Images/about.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    max-width: 500px;
+}
+.about-content h1 {
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about-content p {
+    font-size: 20px;
+}
