@@ -53,19 +53,19 @@ body {
     padding: 70px 10% 0;
 }
 .home-content {
-    max-width: 500px;
+    max-width: 700px;
 }
 .home-content h3 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
 }
 .home-content h1 {
-    font-size: 56px;
+    font-size: 60px;
     font-weight: 700;
     margin: -3px 0;
 }
 .home-content p {
-    font-size: 20px;
+    font-size: 24px;
 }
 .home-sci a {
     display: inline-flex;
@@ -105,13 +105,13 @@ body {
     flex-direction: column;
     text-align: left;
     padding: 10px;
-    max-width: 500px;
+    max-width: 700px;
 }
 .about-content h1 {
     justify-content: center;
-    font-size: 2rem;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 .about-content p {
-    font-size: 20px;
+    font-size: 24px;
 }
